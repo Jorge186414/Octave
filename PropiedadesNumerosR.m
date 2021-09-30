@@ -1,7 +1,7 @@
 %Octave Script
 %Title:        Propiedades de los Numeros Reales
 %Descripcion:  Script para recordar las Propiedades de los Numeros Reales
-%Author:       Jorge Miranda Zu�iga
+%Author:       Jorge Miranda Zuñiga
 %Date:         29/09/2021
 %Version:      3
 %Usage:        octave1> /path/PropiedadesNumerosR
@@ -10,25 +10,25 @@
 clear
 c_Numeros_Natureles = 'N={1, 2, 3, ...n} si n > 0';
 c_Numeros_Enteros = 'Z= { -n..., -2, -1, 0, 1, 2, ..n }';
-c_Numeros_Racionales = 'Q= { m/n donde m,n ?R n ? 0';
-c_Numeros_Irracionales= 'I= {vn que no puede ser expresada como Q todas las raices que no son exactas}';
+c_Numeros_Racionales = 'Q= { m/n donde m,n ∈R n ? 0';
+c_Numeros_Irracionales= 'I= {√n que no puede ser expresada como Q todas las raices que no son exactas}';
 c_Numeros_Reales= 'R= { N, Z, Q, I}';
 
   a = 19
   b = 16
   c = 15
   
-% Propiedades de los numeros sean a, b, c, d, e ?R
+% Propiedades de los numeros sean a, b, c, d, e ∈R
  
-% Propiedad de ? (cerradura)
+% Propiedad de ∈(cerradura)
   disp '1. Propiedad de cerradura'
-p_cerradura = 'a+b ?R';
+p_cerradura = 'a+b ∈R';
   a+b
-p_cerradura2 = 'ab ?R';
+p_cerradura2 = 'ab ∈R';
   a*b
-p_cerradura3 = '7+9 ?N';
+p_cerradura3 = '7+9 ∈N';
   7+9
-p_cerradura4 = '?= pertenencia';
+p_cerradura4 = '∈= pertenencia';
   
 % Propiedad asociativa
   disp '2. Propiedad asociativa'
@@ -68,8 +68,8 @@ p_neutroM = 'a*(1)=a';
 p_inversoA = 'a+-a=0';  
   a+-a
   
-% Inverso multiplicativo o rec�proco
-  disp '8. Propiedad Inverso multiplicativo o rec�proco'
+% Inverso multiplicativo o recíproco
+  disp '8. Propiedad Inverso multiplicativo o recíproco'
 p_inversoM = 'a*(1/a)=1';
   a*(1/a)
 
