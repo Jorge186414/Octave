@@ -1,4 +1,4 @@
-%              Octave Script
+%Octave Script
 %School:       Tecnologico de Estudios Superiores de Jilotepec
 %Title:        Resolucion de desigualdades
 %Descripcion:  Esto lo haremos para que Octave nos pueda resolver una inecuacion
