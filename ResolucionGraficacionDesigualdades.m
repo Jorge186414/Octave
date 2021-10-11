@@ -4,9 +4,9 @@
 %Descripcion:  Esto lo haremos para que Octave nos pueda resolver una inecuacion
 %              de primer grado, una de segundo grado y otra de tercer grado,
 %              estas tambien las tendremos que graficar
-%Author:       Jorge Miranda ZuÒiga
-%Team:         1. Jorge Miranda ZuÒiga
-%              2. Angel Jesus Santiago Hern·ndez
+%Author:       Jorge Miranda Zu√±iga
+%Team:         1. Jorge Miranda Zu√±iga
+%              2. Angel Jesus Santiago Hern√°ndez
 %              3. Angel Manuel Zarco Valerio
 %Date:         07/10/2021
 %Version:      42
@@ -61,7 +61,7 @@ ValorAbsoluto = solve (abs(x/2-1)<=1, 'ReturnConditions')
 disp ("---El intervalo seria: [0,4]")
 x = [0:0.2:4];
 y = zeros(1,length(x));
-subplot (2,2,3);
+subplot (2,2,3); 
 plot (x,y);
 xlabel("X");
 ylabel("Y");
