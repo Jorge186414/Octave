@@ -1,4 +1,4 @@
-%Octave Script
+%Octave Script         
 %School:       Tecnologico de Estudios Superiores de Jilotepec
 %Title:        Resolucion de desigualdades
 %Descripcion:  Esto lo haremos para que Octave nos pueda resolver una inecuacion
@@ -10,7 +10,7 @@
 %              3. Angel Manuel Zarco Valerio
 %Date:         07/10/2021
 %Version:      42
-%Usage:        >>pwd
+%Usage:        >>pwd  
 %              >>cd Desktop
 %              >>cd Octave
 %              >>ResolucionGraficacionDesigualdades
@@ -30,7 +30,7 @@ disp ("---La inecuacion de primer grado es:")
 disp ("---7*x+5*x<2*x-10")
 PrimerGrado = solve(7*x+5*x<2*x-10, 'ReturnConditions')%ReturnConditions lo usaremos para que nos de el resultado
                                                        %que buscamos, ya que si no hacemos esto nos marcara error
-disp ("---El intervalo seria: (-oo,-1)")
+disp ("---El intervalo seria: (-oo,-1)")       
 x = [-6:0.2:-1];
 y = zeros(1,length(x));                   
 subplot (2,2,1); %subplot nos sirve para graficar mas de una grafica en una ventana
