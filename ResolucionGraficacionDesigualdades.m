@@ -26,7 +26,7 @@ pkg load symbolic;  %Esto va a cargar symbolic al iniciar Octave
 
 %Inecuacion de primer grado
 syms x %Declaramos la variable x, la declaramos en cada una de las inecuaciones
-disp ("---La inecuacion de primer grado es:")
+disp ("---La inecuacion de primer grado es:") 
 disp ("---7*x+5*x<2*x-10")
 PrimerGrado = solve(7*x+5*x<2*x-10, 'ReturnConditions')%ReturnConditions lo usaremos para que nos de el resultado
                                                        %que buscamos, ya que si no hacemos esto nos marcara error
